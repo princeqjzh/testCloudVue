@@ -30,6 +30,25 @@ npm run dev
 
 ```
 
+## 遇到问题的参考解决办法
+
+``` bash
+# 安装 nvm 工具， 参考文档： https://github.com/nvm-sh/nvm
+
+# 安装 node v14, 参考命令：
+nvm install 14
+
+# 切换到 node v14
+nvm use 14
+
+# 尝试使用 cnpm ，如果部分依赖库被“墙”
+cnpm install 
+
+# 启动开发环境
+cnpm run dev
+
+```
+
 ## LICENSE
 See [LICENSE](https://github.com/JunManYuanLong/Tcloud/blob/master/LICENSE)
 
